@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod +x \"/Users/ryangillis/Library/CloudStorage/GoogleDrive-ryangillis88@gmail.com/My Drive/ClaudeOS/projects/daily_debrief/debrief.py\")",
+      "Bash(python3 \"/Users/ryangillis/Library/CloudStorage/GoogleDrive-ryangillis88@gmail.com/My Drive/ClaudeOS/projects/daily_debrief/debrief.py\")",
+      "mcp__f064bee2-f154-4d8b-a6a8-a854bab1e7f8__search_files",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "Bash(mdfind -onlyin ~ \"BSE trip OR Bayside Elite OR Virgin booking OR booking.com confirmation\")",
+      "Bash(python3 -c \"import json,sys; files=json.load\\(sys.stdin\\)['files']; [print\\(f['name'], '|', f.get\\('mimeType',''\\), '|', f.get\\('modifiedTime',''\\)\\) for f in files]\")",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(python3 bse_itinerary_builder.py)",
+      "Bash(python3 bse_onepager_builder.py)",
+      "Bash(gh auth *)"
+    ]
+  }
+}
